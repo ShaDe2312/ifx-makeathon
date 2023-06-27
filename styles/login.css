@@ -1,0 +1,33 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.form-label{
+    padding-bottom: 2vh;
+}
+
+#ifx-logo{
+    width: 500vw;
+    padding-bottom: 5vh;
+}
+
+#login-button{
+   background: #0a8276;
+   color: white;
+}
+
+.footer{
+    background-color: #928285;
+}
